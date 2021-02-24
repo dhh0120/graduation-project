@@ -1,10 +1,13 @@
-import React, { Component } from 'react'
-
+import React, { Component } from 'react';
+import { Button } from 'antd';
 export default class HelloWorld extends Component {
     render() {
         return (
             <div>
-                hello
+                <Button>
+                    hello
+            </Button>
+
             </div>
         )
     }
